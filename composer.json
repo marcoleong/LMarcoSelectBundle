@@ -1,0 +1,25 @@
+{
+    "name": "lmarco/select-bundle",
+    "type": "symfony-bundle",
+    "description": "Bundlized Select2 jQuery Library",
+    "keywords": ["Select2"],
+    "license": "GPL",
+    "require" : {
+        "symfony/symfony": "*"
+    },
+    "authors": [
+        {
+            "name": "Igor Vaynberg",
+            "email": "select2@googlegroups.com"
+        },
+        {
+            "name": "Marco Leong",
+            "email": "leong.chou.kin@usj.edu.mo"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": { "LMarco\\SelectBundle": "" }
+    },
+    "target-dir": "LMarco/SelectBundle",
+}
